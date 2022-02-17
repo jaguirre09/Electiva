@@ -23,7 +23,7 @@ ul {
     text-decoration: none;
 }
 
-li {
+li { 
     padding: 10px;
     color: white;
     list-style: none;
@@ -39,4 +39,31 @@ li a {
     color: white;
     list-style: none;
     text-decoration: none;
+}
+.fondo4{
+    background-image: url('../img/img4.jpg');
+    background-size: cover;
+}
+
+.input{
+    margin: 20px;
+width: 20%;
+    border: green 2px solid;
+    height: 24px;
+    border-radius: 12px;
+    padding-left: 12px;
+}
+select{
+    margin: 20px;
+width: 20%;
+    border: green 2px solid;
+    height: 26px;
+    border-radius: 12px;
+
+}
+.button{
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 7px;
+color: white;
 }
