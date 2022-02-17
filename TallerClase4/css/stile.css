@@ -1,0 +1,42 @@
+.body1 {
+    background-image: url('../img/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body2 {
+    background-image: url('../img/img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    background-color: black;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+li {
+    padding: 10px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+:hover li {
+    background-color: cornflowerblue;
+}
+
+li a {
+
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
