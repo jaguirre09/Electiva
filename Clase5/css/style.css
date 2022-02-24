@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    text-align: center;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);     
+}
+
+.grideigth{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.gridseven{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.gridsix{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.gridfive{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.gridfour{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gridtree{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gridtwo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.gridOne{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
