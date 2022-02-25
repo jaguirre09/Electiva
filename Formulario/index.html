@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    
+ 
+
     <title>Document</title>
 </head>
 
@@ -17,7 +18,9 @@
     <header class="header">
         <nav>
             <ul>
-                <li><a href="index.html"><div class="logo">T5S</div></a></li>
+                <li><a href="index.html">
+                        <div class="logo"><i class="fa-solid fa-book-open-cover"></i>T5S</div>
+                    </a></li>
             </ul>
         </nav>
 
@@ -25,73 +28,97 @@
 
 
 
-    <div class="center">
-
-        <h1>Formulario</h1>
-
-        <form action="">
 
 
-            <label for="texto"></label>
-            <input type="text" id="texto" placeholder="Nombre" value="" required class="input">
-            <br>
-            <br>
-            <label for="correo"></label>
-            <input type="text" id="correo" placeholder="Apellido" value="" required class="input">
-            <br>
-            <br>
-
-            <label for="password"></label>
-            <input type="email" id="password" placeholder="Correo" value="" required class="input">
-            <br>
-            <br>
-
-            <label for="password"></label>
-            <input type="password" id="password" placeholder="Correo" value="" required class="input">
-            <br>
-            <br>
-
-            <label for=""></label>
-            <input type="number" value="1" min="0" max="3" class="input">
-            <br>
-            <br>
 
 
-            <select name="" id="">
+    <form action="#" method="get" >
+        <div class="center">
+            <div class="content">
+                <h1>Formulario</h1>
 
-                <option value="">option 1</option>
-                <option value="">option 2</option>
-                <option value="">option 3</option>
-            </select>
+                <label for="texto"></label>
+                <input type="text" id="texto" placeholder="Nombre" value="" required class="input">
+                <br>
+                <br>
+                <label for="correo"></label>
+                <input type="text" id="correo" placeholder="Apellido" value="" required class="input">
+                <br>
+                <br>
 
-            <br>
-            <br>
+                <label for="numero"></label>
+                <input type="number" id="numero" placeholder="Telefono" value="" required class="input">
+                <br>
+                <br>
+
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="Correo" value="" required class="input">
+                <br>
+                <br>
 
 
-            <input type="radio" name="" id="E"><label for="E">Estudiante</label>
-            <input type="radio" name="" id="P"><label for="P">Profesor</label>
+                <div class="edad">
+                    <label for=""> </label>
+                    <input type="number" placeholder="Edad" class="lans">
+                    <label for=""></label>
+                    <input type="text" class="lans" style="width: 80%;" placeholder="Direccion">
+                </div>
+                <br>
+                <br>
 
-            <br>
-            <br>
+
+                <label for="numero"></label>
+                <input type="number" id="numero" placeholder="Documento" value="" required class="input">
+                <br>
+                <br>
+
+                <label for=""><b> Fecha de expedicion</b> </label>
+                    <input type="date" class="input">
 
 
 
 
 
+                <select name="" id="" class="input" style="margin-left: 0;margin-right: 0;width: 100%;height: 50px;" multiple >
+                    <option value="" draggable="false" >Materias</option>
+                    <option value="">Calculo</option>
+                    <option value="">Ingles</option>
+                    <option value="">Fisica</option>
+                </select>
 
-            <input type="submit" value="Enviar Formulario" class="button">
-
-
-
-
-
-
-
-
-        </form>
+                <br>
+                <br>
 
 
-    </div>
+                <input type="radio" name="P" id="P"><label for="P"><b>Estudiante</b></label>
+                <input type="radio" name="P" id="P"><label for="P"><b>Profesor</b></label>
+
+                <br>
+                <br>
+                <label for="P">Subir Foto</label>
+                <input type="file" name="P" id="P" style="border: 0;">
+
+                <br>
+                <br>
+
+
+                <input type="submit" value="Enviar Formulario" class="button">
+                <br>
+                <br>
+
+                <p> Aceptar terminos y condiciones</p>
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </form>
 </body>
 
 </html>
