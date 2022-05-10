@@ -1,0 +1,42 @@
+.header {
+    width: 98%;
+    padding: 12px;
+    background: black;
+    display: flex;
+}
+
+.logo {
+    padding: 12px;
+    color: white;
+    margin-left: 30px;
+    font-size: 22px;
+}
+
+.recargar {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    float: right;
+}
+
+.btn {
+    padding: 6px 12px;
+}
+
+.stil {
+    color: slategray;
+    padding: 5px;
+    background: rgba(255, 215, 0, 0.58);
+}
+
+.img {
+
+    display: contents;
+}
+
+.structure {
+    padding-top: 100px;
+    margin: 0 10%;
+    background: aliceblue;
+    height: 90vh;
+}
